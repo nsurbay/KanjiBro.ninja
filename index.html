@@ -1,28 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-173656843-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-173656843-1", { optimize_id: "OPT-MKHFF3T" });
-    </script>
-
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="canonical" href="https://kanjibro.ninja" />
-    <link rel="alternate" hreflang="ja" href="https://kanjibro.ninja/ja" />
-    <link rel="alternate" hreflang="x-default" href="https://kanjibro.ninja" />
 
     <!-- Primary Meta Tags -->
     <title>KanjiBro - How to write Japanese</title>
@@ -32,50 +13,13 @@
       name="description"
       content="Learn how to write and draw japanese. Showing you strokes order and animated letter for Kanji, Hiragana and Katana."
     />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kanjibro.ninja" />
-    <meta property="og:title" content="KanjiBro - How to write Japanese" />
     <meta
-      property="og:description"
-      content="Learn how to write and draw japanese. Showing you strokes order and animated letter for Kanji, Hiragana and Katana."
+      http-equiv="Content-Security-Policy"
+      content="block-all-mixed-content;default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://stackpath.bootstrapcdn.com https://code.jquery.com;style-src 'self' stackpath.bootstrapcdn.com fonts.googleapis.com;object-src 'none';frame-src 'self';child-src 'self';img-src 'self';font-src 'self' fonts.gstatic.com;connect-src 'self' cdn.jsdelivr.net;manifest-src 'self';base-uri 'self';form-action 'self';media-src 'self';worker-src 'self';"
     />
-    <meta property="og:image" content="https://kanjibro.ninja/tile.jpg" />
-    <meta property="og:image:type" content="jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://kanjibro.ninja" />
-    <meta property="twitter:title" content="KanjiBro - How to write Japanese" />
-    <meta
-      property="twitter:description"
-      content="Learn how to write and draw japanese. Showing you strokes order and animated letter for Kanji, Hiragana and Katana."
-    />
-    <meta property="twitter:image" content="https://kanjibro.ninja/tile.jpg" />
-    <meta name="twitter:creator" content="@lepierreturpin" />
-    <meta name="twitter:site" content="@lepierreturpin" />
-    <meta name="twitter:domain" content="kanjibro.ninja" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://kanjibro.ninja/",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://kanjibro.ninja/?kanji={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      }
-    </script>
 
     <link
       href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/sketchy/bootstrap.min.css"
@@ -87,7 +31,7 @@
     <!--   NAVIGATION -->
     <div class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="./">
           <img
             src="./favicon-32x32.png"
             width="30"
@@ -111,13 +55,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/ja">Japanese</a>
-            </li>
-            <li class="nav-item">
               <a
                 class="nav-link"
                 href="https://www.buymeacoffee.com/pierreturpin"
                 >Donate</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/nsurbay/KanjiBro.ninja"
+                >Github</a
               >
             </li>
           </ul>
@@ -185,23 +135,6 @@
       </div>
       <!-- Viewer  -->
       <div class="row" id="kanjisViewer"></div>
-
-      <!-- ADS HILLTOPS -->
-      <div class="row">
-        <div class="col-12">
-          <script>
-            (function(__htas) {
-              var d = document,
-                s = d.createElement("script"),
-                l = d.scripts[d.scripts.length - 1];
-              s.settings = __htas || {};
-              s.src =
-                "\/\/ablenctionalle.info\/aLWDZ.yTQt2\/9pkLZ\/To9e6ibl2f5_l\/SdWNQp9ANyDoEU0SOATtY\/wANgyj0\/0QMdTiQQ5ANfj\/Am4aJTnPBp1qcZ2khsaVbC2W5IlhS\/WYQy9XNxDOE\/0HOsTbYmw\/NQyu0D0VMvTYQT5sNLjpAd4D";
-              l.parentNode.insertBefore(s, l);
-            })({});
-          </script>
-        </div>
-      </div>
 
       <!-- Modal -->
       <div
@@ -279,11 +212,26 @@
               >
               license.
             </p>
+
             <p class="text-muted">
               Based on
               <a href="https://getbootstrap.com" target="_blank">Bootstrap</a>.
               Web fonts from
               <a href="https://fonts.google.com/" target="_blank">Google</a>.
+            </p>
+
+            <p class="text-muted">
+              The original website can be found at
+              <a href="https://kanjibro.ninja/" target="_blank">kanjibro.ninja</a>.
+              This instance is copy of the website before it shutdown base on 
+              <a href="https://github.com/Amtibe/KanjiBro.ninja" target="_blank">github</a> and
+              <a href="https://web.archive.org/web/20230609203516/https://kanjibro.ninja/" target="_blank">the web archive</a>.
+            </p>
+
+            <p class="text-muted">
+              You must assume that all data send to this instance is logged. 
+              If you want to create your own, you can clone the site from
+              <a href="https://github.com/nsurbay/KanjiBro.ninja" target="_blank">github</a>.
             </p>
           </div>
         </div>
@@ -324,8 +272,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- KanjiViewer --><script src="js/kanjiviewer.js"></script>
+    <!-- KanjiViewer --><script src="./js/kanjiViewer.js"></script>
 
-    <script src="js/scripts.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -36,7 +36,7 @@ body {
 }
 
 .kanjiViewer {
-  background-image: url(/img/grid.svg);
+  background-image: url(../img/grid.svg);
   background-size: cover;
 }
 

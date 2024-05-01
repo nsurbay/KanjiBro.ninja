@@ -67,7 +67,7 @@ KanjiViewer = {
       this.paper.clear();
 
       jQuery("#" + this.divName).css({
-        "background-image": "url(/img/loader.gif)"
+        "background-image": "url(./img/loader.gif)"
       });
 
       var divName = this.divName;
@@ -81,7 +81,7 @@ KanjiViewer = {
         dataType: "xml",
         success: function(results) {
           jQuery("#" + divName).css({
-            "background-image": "url(/img/grid.svg)"
+            "background-image": "url(./img/grid.svg)"
           });
           parent.fetchNeeded = false;
           parent.xml = results;
